@@ -1,7 +1,15 @@
+import { Button } from "./components/Button";
+
 export function App() {
 
   return (
-    <h1> Hello world</h1>
+    <>
+    <Button varient='primary' />
+    <Button varient='secondary'/>
+    <Button varient='success'/>
+    <Button varient='danger'/>
+    <Button />
+    </>
   )
 }
 
