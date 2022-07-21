@@ -5,5 +5,5 @@ interface ButtonProps {
 }
 
 export function Button({ varient = 'primary' }: ButtonProps) {
-  return <ButtonContainer varient={varient}>Enviar</ButtonContainer>  
+  return <ButtonContainer varient={varient}>Enviar</ButtonContainer>
 }
